@@ -42,8 +42,10 @@ public class APIControllers {
 
     @DeleteMapping(value = "/delete/{id}")
     public String deleteUser(@PathVariable long id) {
-        User UserToBeDeleted = userRepo.findById(id).get();
-        userRepo.delete(UserToBeDeleted);
+        User userToBeDeleted = userRepo.findById(id).get();
+        userRepo.delete(userToBeDeleted);
         return "User with ID: " + id + " successfully deleted.";
     }
+
+
 }
