@@ -1,4 +1,4 @@
-package com.cscoder.app.rest.Models;
+package restapi.Models;
 
 import jakarta.persistence.*;
 

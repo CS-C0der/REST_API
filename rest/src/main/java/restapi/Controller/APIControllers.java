@@ -1,7 +1,7 @@
-package com.cscoder.app.rest.Controller;
+package restapi.Controller;
 
-import com.cscoder.app.rest.Models.User;
-import com.cscoder.app.rest.Repo.UserRepo;
+import restapi.Models.User;
+import restapi.Repo.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

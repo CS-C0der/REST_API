@@ -1,6 +1,6 @@
-package com.cscoder.app.rest.Repo;
+package restapi.Repo;
 
-import com.cscoder.app.rest.Models.User;
+import restapi.Models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepo extends JpaRepository<User, Long> {
